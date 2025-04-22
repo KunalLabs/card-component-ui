@@ -27,7 +27,7 @@ The goal was to build a responsive card layout that adapts to different screen s
 
 Here is a preview of the project:
 
-![Project Screenshot]()
+![Project Screenshot](Screenshot/Screenshot001.jpg)
 
 > Tip: Use a browser like Firefox or tools like FireShot to take a full-page screenshot.
 
