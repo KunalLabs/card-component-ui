@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Boldonse&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Boldonse&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Young+Serif&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  height: 88rem;
+  width: 25rem;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.png img {
+  height: 11rem;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.heading h1 {
+  font-weight: 400;
+  padding: 0.8rem 0rem;
+  font-family: Young Serif;
+}
+
+.heading p {
+  font-size: 14px;
+  color: hsl(14, 45%, 36%);
+  text-align: justify;
+  padding-bottom: 1rem;
+  font-family: Outfit;
+}
+
+.time {
+  background-color: hsla(331, 40%, 89%, 0.686);
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+.time h5 {
+  font-weight: 400;
+  font-family: Young Serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: hsl(332, 51%, 32%);
+}
+
+.time ul {
+  padding-left: 1.1rem;
+}
+
+.time ul li {
+  padding-left: 15px;
+  padding-bottom: 6px;
+  font-size: 14px;
+  font-family: Outfit;
+}
+
+.time ul li span {
+  font-weight: 600;
+}
+
+.time ul li::marker {
+  font-size: 13px;
+}
+
+.ingre {
+  padding: 1.5rem 0rem;
+}
+
+.ingre h5 {
+  font-weight: 400;
+  font-family: Young Serif;
+  padding-bottom: 14px;
+  font-size: 26px;
+  color: hsl(14, 45%, 36%);
+}
+
+.ingre ul {
+  padding-left: 1rem;
+}
+.ingre ul li {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  font-size: 14px;
+  color: hsl(14, 45%, 36%);
+  font-family: Outfit;
+}
+
+.ingre ul li::marker {
+  font-size: 9px;
+}
+
+.steps {
+  padding: 1rem 0rem;
+}
+
+.steps h5 {
+  padding-bottom: 14px;
+  font-size: 26px;
+  color: hsl(14, 45%, 36%);
+}
+
+.steps ol {
+  padding-left: 1rem;
+  color: hsl(14, 45%, 36%);
+}
+
+.steps ol li {
+  padding-left: 12px;
+  padding-bottom: 6px;
+  font-size: 14px;
+  color: hsl(14, 45%, 36%);
+  font-family: Outfit;
+}
+
+.steps ol li span {
+  font-weight: 600;
+  color: hsl(24, 5%, 18%);
+}
+
+.steps ol li::marker {
+  font-weight: 800;
+  color: hsl(14, 45%, 36%);
+}
+.neuitrion {
+  padding: 1rem 0rem;
+}
+
+.neuitrion h5 {
+  font-family: Young Serif;
+  font-weight: 400;
+  padding-bottom: 14px;
+  font-size: 26px;
+  color: hsl(14, 45%, 36%);
+}
+
+.neuitrion p {
+  font-size: 14px;
+  color: hsl(14, 45%, 36%);
+  text-align: justify;
+  padding-bottom: 8px;
+  font-family: Outfit;
+}
+
+.neuitrion table {
+  width: 100%;
+  margin: 20px 0;
+  font-family: Outfit;
+  font-size: 14px;
+}
+
+.neuitrion table tr td {
+  padding: 10px 18px;
+  border: none;
+  border-bottom: 1px solid #c9c5c5;
+}
+
+.neuitrion table tr td span {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+@media (min-width: 375px) {
+  .container{
+    height: 110rem;
+  };
+};
